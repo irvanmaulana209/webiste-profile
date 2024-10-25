@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ABOUT ME</title>
+    <style>
+        .scrolling-text {
+            white-space: nowrap;
+            overflow: hidden;
+            position: relative;
+            align-items: center;
+            justify-items: center;
+            text-align: center;
+            font-size: 24px;
+            margin-top: 20px;
+        }
+
+        .scrolling-text span {
+            display: inline-block;
+            padding: 0 10px;
+            animation: scroll 10s linear infinite;
+        }
+
+        @keyframes scroll {
+            0% {
+                transform: translateX(100%);
+            }
+            100% {
+                transform: translateX(-100%);
+            }
+        }
+        h1{
+            color: #202c2d;
+            background: #FFFFFF;
+            text-shadow: 0 1px #808d93, -1px 0 #cdd2d5, -1px 2px #808d93, -2px 1px #cdd2d5, -2px 3px #808d93, -3px 2px #cdd2d5, -3px 4px #808d93, -4px 3px #cdd2d5, -4px 5px #808d93, -5px 4px #cdd2d5, -5px 6px #808d93, -6px 5px #cdd2d5, -6px 7px #808d93, -7px 6px #cdd2d5, -7px 8px #808d93, -8px 7px #cdd2d5;
+        }
+    </style>
+</head>
+<body>
+    <div style=" text-align: center; align-items: center; justify-content: center;">
+        <header>
+            <h1>TENTANG SAYA </h1>
+            <img src="pan1.jpg" alt="irvan" height="400" width="200" style="-webkit-box-shadow: 5px 5px 15px 5px #000000; 
+            box-shadow: 5px 5px 15px 5px #000000;">
+        </header>
+    </div>
+    <div class="scrolling-text">
+        <span>Perkenalkan Nama Saya IRVAN MAUALANA</span>
+        <p>saya lahir diPurbalingga pada bulan Januari 2005 saya bercita cita ingin menjadi seorang  development  <br>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam incidunt tempora esse aliquam similique dolor, cum odio ipsum aperiam nobis suscipit vero nesciunt atque neque saepe veritatis architecto, ipsa quas!</p>
+    </div>
+</body>
+</html>
